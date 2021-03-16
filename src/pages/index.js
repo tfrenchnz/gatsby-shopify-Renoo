@@ -1,8 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Layout from "../components/layout"
 
 import SEO from '~/components/seo'
 import ProductGrid from '~/components/ProductGrid'
+
+export default function Home() {
+  return <Layout>Hello</Layout>
+}
 
 const IndexPage = () => (
   <>
