@@ -6,7 +6,7 @@ import SEO from '~/components/seo'
 const ContactForm = () => (
     <>
         <SEO title="Contact" />
-        <h1>Please send us a message!</h1>
+        <h1>Please send us a message !</h1>
         <form name="contact" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
             <p>
