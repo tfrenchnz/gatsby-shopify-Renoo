@@ -20,8 +20,8 @@ const Navigation = ({ siteTitle }) => {
   return (
     <Wrapper>
       <Container>
-        <MenuLink to="/contact"></MenuLink>
         <MenuLink to="/">{siteTitle}</MenuLink>
+        <MenuLink to="/contact">Contact</MenuLink>
         <MenuLink to="/cart">
           {hasItems && <CartCounter>{quantity}</CartCounter>}
           Cart 🛍
